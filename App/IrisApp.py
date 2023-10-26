@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 from PIL import Image
 
-file_path = os.path.join('C:/Users/deepa/streamlit/', 'classifier1.pkl')
+file_path = os.path.join('C:/Users/deepa/streamlit/', 'clf1.pkl')
 
 with open(file_path, 'rb') as pickle_file:
     classifier = pickle.load(pickle_file)
